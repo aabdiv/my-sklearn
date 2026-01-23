@@ -1,2 +1,35 @@
-# my-sklearn
-A comprehensive Python implementation of core scikit-learn algorithms from scratch using NumPy, accompanied by detailed Jupyter notebooks for benchmarking, analysis, and educational purposes.
+# ML Алгоритмы с Нуля на NumPy
+
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![NumPy](https://img.shields.io/badge/NumPy-1.21%2B-orange)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-1.0%2B-green)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebooks-orange)
+
+## 📋 О проекте
+
+Этот репозиторий содержит образовательные реализации основных алгоритмов машинного обучения "с нуля" с использованием только NumPy, а также подробные сравнения с оригинальными реализациями из scikit-learn.
+
+### Основные компоненты:
+
+1. **Кастомные реализации sklearn алгоритмов на NumPy**
+   - Регрессия (линейная, логистическая, гребневая, лассо)
+   - Классификация (KNN, деревья решений, наивный Байес)
+   - Метрики качества и методы валидации
+   - Методы предобработки данных
+
+2. **Jupyter ноутбуки с исследованиями и сравнениями**
+   - Сравнение производительности с sklearn
+   - Исследование и визуализация данных
+   - Оценка моделей и подбор гиперпараметров
+   - Образовательные материалы по алгоритмам
+
+## 🚀 Быстрый старт
+
+### Установка зависимостей
+```bash
+# Клонирование репозитория
+git clone https://gitlab.com/ваш-логин/my-sklearn.git
+cd my-sklearn
+
+# Установка зависимостей
+pip install -r requirements.txt
